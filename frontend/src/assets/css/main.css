@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+.Jua {
+  font-family: "Jua", sans-serif;
+}
+
+
+.appie-dark-mode {
+  transition: all 0.5s ease-in-out;
+}
+.dark__btn__mon,
+.dark__btn__sun {
+  width: 20px;
+  height: auto;
+  display: inline-block;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.dark__btn__sun svg {
+  color: #ffe000;
+}
+.dark__btn__mon svg {
+  color: #0e1133;
+}
+.appie-sticky.appie-header-area-dark.sticky {
+  background: #212531;
+}
+.appie-showcase-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1200px;
+  }
+}
+.appie-services-2-area.appie-services-8-area {
+  overflow: hidden;
+}
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .appie-services-8-area .service-thumb {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.save-comment input:checked + label::after {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f00c";
+}
+.appie-testimonial-area {
+  overflow: hidden;
+}
+.testimonial-about-slider-active .testimonial-parent-item {
+  display: flex !important;
+  justify-content: center;
+}
+.testimonial-box {
+  width: 770px !important;
+}
+.testimonial-box-about-slider-small-active
+  .slick-center.slick-current
+  .item
+  .thumb
+  img {
+  width: 70px;
+  display: inline-block;
+}
+.testimonial-box-about-slider-small-active .item .thumb img {
+  display: inline-block;
+  width: 40px;
+}
+.testimonial-box-about-slider-small-active .item .thumb {
+  align-items: center;
+}
+.testimonial-box-about-slider-small-active .slick-center.slick-current .item {
+  margin-top: -20px;
+}
+/* rtl */
+/*==== rtl css ====*/
+
+.appie-traffic-area.appie-traffic-area-rtl .traffic-thumb {
+  left: 0;
+  right: auto;
+  transform: translateY(-50%) rotateY(-180deg);
+}
+
+.appie-traffic-area-rtl .appie-traffic-title {
+  padding-left: 220px;
+  padding-right: 0;
+}
+
+.appie-traffic-area-rtl .appie-traffic-service .icon {
+  right: 0;
+  left: auto;
+}
+
+.appie-faq-area-rtl .faq-accrodion .accrodion .accrodion-title::after,
+.appie-faq-area-rtl .faq-accrodion .accrodion .accrodion-title::before {
+  right: auto;
+  left: 30px;
+}
+
+.appie-project-area.appie-project-area-rtl
+  .appie-project-box
+  .appie-project-thumb {
+  left: 70px;
+  right: auto;
+}
+
+.appie-project-area-rtl .appie-project-content .input-box input {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.appie-project-area-rtl .appie-project-content .input-box button {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.appie-header-area-rtl .appie-header-main-menu ul {
+  text-align: right;
+}
+
+.appie-header-area-rtl .appie-header-main-menu ul > li .sub-menu {
+  text-align: right;
+}
+
+/* rtl end */
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .testimonial-about-slider-active .testimonial-box {
+    box-shadow: none;
+    background: none;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+  .testimonial-about-slider-active .slick-arrow.next {
+    right: 15px;
+  }
+  .testimonial-about-slider-active .slick-arrow.prev {
+    left: 15px;
+  }
+}
